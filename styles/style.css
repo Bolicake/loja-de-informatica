@@ -44,7 +44,7 @@ p{
     width: 221px;
     height: 48px;
     float: left;
-    background: url(../img/MicrosoftTeams-image.png) no-repeat; /*.../ sai da página*/
+    background: url(../public/images/MicrosoftTeams-image.png) no-repeat; /*.../ sai da página*/
     font-size: 0;
 }
 
