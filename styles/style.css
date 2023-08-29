@@ -1,0 +1,143 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-size:100%;
+    font-family:'Open Sans', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5em; /*1em é considerado 16px, enquanto 1.5em é considerado 24px. */
+    color:#333;
+}
+
+p{
+    font-size: 1em;
+    color: #777;
+}
+
+/* CABECALHO */
+.cabecalho{
+    width: 100%;
+    float: left;
+    padding:50px 8%; /*Ou 50px da página, ou 8% da página*/
+    background-color: #13c7ae;
+}
+
+.logo a{
+    width: 221px;
+    height: 48px;
+    float: left;
+    background: url(../img/MicrosoftTeams-image.png) no-repeat; /*.../ sai da página*/
+    font-size: 0;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    background-color: #0cae98;
+    color: #fff;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+/* MENU */
+.menu{
+    width: 100%;
+    float: left;
+    background-color: #111;
+    padding: 18px 8%;
+}
+
+.menu li{
+    float: left;
+}
+.menu li a{
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color:#fff;
+}
+
+/* SOCIAL-ICONS */
+
+.social-icons{
+    float: right;
+}
+
+.social-icons a{
+    color: #fff;
+    float: left;
+    margin-left: 13px;
+}
+
+.btn-facebook:hover{
+    color: #3b5998;
+}
+
+.btn-x-twitter:hover{
+    color: #54a4d6;
+}
+
+.btn-google:hover{
+    color: #d73d33;
+}
+
+/* PRINCIPAL */
+.principal{
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+}
+
+.sobre{
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.sobre h2{
+    margin-bottom: 15px;
+}
+
+.sobre img{
+    width: 50%;
+    float: left;
+    border-radius: 8px;
+    margin: 0px 16px 16px 0px;
+}
+
+.sobre p{
+    text-align: justify;
+}
